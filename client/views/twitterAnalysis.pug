@@ -1,0 +1,34 @@
+extends layout
+
+block content
+
+    .container1
+        .row
+            .col-md-12-page2
+                .input-group-page2.input-group-lg
+                    input#searchInput.form-control(type='text' placeholder='Enter keywords...')
+                    span.input-group-btn
+                        button.btn.btn-primary(onclick='' type='button') Start
+
+    #tweetAnalysis-section
+        .sentiment-title
+            h4
+                strong Sentiment Chart
+            .sentiment-chart
+                #chart_container
+                    #chart
+    .clear-chart
+        button.button-clear#stopBtn(type='button') Stop stream
+
+    section#tweet.text-dark
+        .container
+            .row
+                .col-lg-12.mx-auto
+                    .card.text-dark
+                        .card-header.text-center
+                            b Twitter Stream
+                        .card-body
+                            #tweetTiles.row
+
+
+    script(type= 'text/javascript' src="./javascripts/update.js")

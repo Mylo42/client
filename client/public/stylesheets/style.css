@@ -1,0 +1,74 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.btn,
+.form-control {
+  height: 50px !important;
+}
+
+.input-group {
+  margin-top: 150px;
+}
+
+.input-group-page2 {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: 750px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.card {
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 15px;
+}
+
+#chart {
+  margin-left: 260px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.sentiment-score {
+  padding: 4px 10px !important;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.clear-chart {
+  padding-left: 230px;
+  padding-bottom: 20px;
+}
+.button-clear {
+  background-color: #4caf50;
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.col-md-12-page2 {
+  padding-left: 350px;
+}
+
+.sentiment-score {
+  display: inline-block;
+  padding: 3px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}

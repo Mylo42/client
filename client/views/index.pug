@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+
+  .container
+    .row
+      .col-md-12
+        .input-group.input-group-lg
+          input#searchInput.form-control(type='search' placeholder='Enter keywords...')
+          span.input-group-btn
+            button.btn.btn-primary(type='button')
+              | Start
+        br
+        #auTrends
+          strong Twitter Trending topics in Australia:
+          div.button-group
+            each name in data
+              button.btn.btn-default.customBtn= name.name
+  script(type= 'text/javascript' src="./javascripts/client.js")
+
+
+
